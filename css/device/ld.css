@@ -1,0 +1,52 @@
+
+@media screen and (max-width:1000px){
+.head{
+    background : black;
+    color : white;
+}
+.left{
+  
+ background-color:gold;
+float:left;
+width:35%;
+    }
+   .firstNav{
+     display:none;
+   }
+  .smMainNav{
+    display:none;
+  }
+ .slideput{
+   display:none;
+ }
+ .dropdown{
+   display:none;
+ }
+ #firstNav{
+   display:none;
+ }
+ .slidePut{
+   display:none;
+ }
+ .header{
+   display:none;
+ }
+.right{
+width:73;
+float:left;
+    }
+    
+.footer{
+    background-color:black;
+    color:white;
+    width:100%;
+    clear:both;
+    }
+}
+
+
+
+
+
+
+
