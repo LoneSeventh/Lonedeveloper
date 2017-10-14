@@ -1,1 +1,3 @@
-alert("hi");
+alert(i);
+
+var i="hi";
