@@ -794,8 +794,18 @@ li{
 
 @media screen and (mix-width:1000px){
  
+    i:hover{
+    color:silver;
+  }
+  .homeicon{
+    color:skyblue;
+  }
+  .homeicon:hover{
+    color:silver;
+  }
+
    /* PART 1 */
-   #partOne{
+#partOne{
   
   background-color:white;
   top:0;
@@ -806,38 +816,26 @@ li{
   margin-left:-10px;
   height:100%;
   width:33%;
-  display:block;
+  display:;
   transition:0.5s;
  
   }
   
-   .oneicon{
-    text-decoration:none;
-    color:black;
-  }
-  .oneicon:hover{
-    color:silver;
-    text-decoration:none;
-  }
-  .onehomeicon{
-    color:skyblue;
-    text-decoration:none;
-  }
-  .onehomeicon:hover{
-    color:silver;
-  }
   
-  
-
-.onecategory a{
-  display:block;
-  padding:10px 10px 10px 10px;
-  font-size:20px;
-  margin-left:18%;
-  color:black;
+  #onefirstNav{
+  background-color:white;
+  top:0;
+  z-index:1;
+  overflow-x:hidden;
+  float:left;
+  position :fixed;
+  margin-left:-10px;
+  height:100%;
+  width:33%;
+  display:inline-block;
+  transition:0.5s;
 }
-  
-.onecategory a{
+#onefirstNav a{
   transition:0.4s;
   display:block;
   padding:10px 10px 10px 10px;
@@ -845,55 +843,19 @@ li{
   margin-left:18%;
   color:black;
 }
-.onecategory a:hover{
+#onefirstNav a:hover{
   margin-left:12%;
   background-color:black;
   color:white;
 }
-#firstNav h7{
+#onefirstNav h7{
   margin-left:10%;
-}
-#buttoncat{
-  margin-left:3%;
-  background-color:white;
-  
-}
-#buttoncat a{
-  float:left;
-  border:none;
-  outline:none;
-  background-color:rgba(0,0,0,0.1);
- padding:10px 14px;
- margin-left:1%;
- display:block;
- text-decoration:none;
- width:55px;
- height:14px;
- color:black;
-}
-
-#buttoncat a:hover{
-  background-color:silver;
-}
-#buttoncat a.active{
-  background-color:silver;
 }
 .onecategory{
   margin-bottom:100px;
 }
-.selectedcat{
-  width:83%;
-   
-  clear:both;
- padding:14px 16px;
-  overflow:auto;
-  font-size:500%;
-  padding-left:10%;
-  background-color:black;
-  overflow:auto;
-  color:white;
-}
-.times{
+.onetimes{
+  display:none;
   outline:none;
   float:right;
 border:none;
@@ -902,36 +864,32 @@ background:inherit;
   margin-top:15%;
   margin-right:10%;
 }
-.times:hover{
+.onetimes:hover{
   color:silver;
 }
-.times.active{
+.onetimes.active{
   color:silver;
 }
-
-.pic1{
+.onepic1{
   float:left;
-  width:100px;
-  height:100px;
-  margin-left:10%;
+  width:120px;
+  height:120px;
+  margin-left:40%;
   margin-top:15%;
   margin-bottom:15px;
   border-radius: 15%;
 }
 
-.titleNav{
+.onetitleNav{
   padding-left:10%;
 }
 li{
     list-style-type:none;
 }
-.slidelink{
+.oneslidelink{
  
  clear:both;
-} 
-  
-  
-
+}
          /*PART 2*/
             /*LEFT SIDE*/
             /*contnet of all */
