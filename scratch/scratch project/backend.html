@@ -13,25 +13,25 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
  </head>
 
-
- <body scroll="no" style="overflow: hidden">
+ <body>
   <div id="partOne">
    <div id="onefirstNav">
     <div>
-       <img class="pic1" src="picture/1.png">
+     <button href="#" class="onetimes" onclick="closeNav()">&times;</button>
+     <img class="onepic1" src="picture/1.png">
 
     </div>
-    <div class="slidelink">
-     <h2 class="titleNav">Lone Developer</h2>
+    <div class="oneslidelink">
+     <h2 class="onetitleNav">Lone Developer</h2>
      <br>
      <br>
-     <a href="index.html" class=" fa fa-windows onehomeicon" style="font-size:24px; margin-left:10%;" >  &nbsp; Home </a>
+     <i class=" fa fa-windows homeicon" style="font-size:24px; margin-left:10%;" >  &nbsp; Home </i>
      <br>
      <br>
-     <a href="#" class="fa fa-user oneicon" style="font-size:24px; margin-left:10%;">    &nbsp; About me </a>
+     <i class="fa fa-user" style="font-size:24px; margin-left:10%;">    &nbsp; About me </i>
      <br>
      <br>
-     <a href="#" class="fa fa-envelope oneicon" style="font-size:24px; margin-left:10%;">  &nbsp; Contact </a>
+     <i class="fa fa-envelope" style="font-size:24px; margin-left:10%;">  &nbsp; Contact </i>
      <br>
      <br>
      <br>
@@ -48,26 +48,27 @@
      <br>
      <br>
      <br>
-     <div id="buttoncat">
-      <a href="backend.html" class="fa fa-server  " id="decoration" > Back</a>
-      <a id="decoration" class="fa fa-cogs" href="ov.html">Ove</a>
-      <a id="decoration" class="fa fa-mobile-phone" href="mobilewebapps.html">Mobile</a>
+     <br>
+     <div class="buttoncat">
+      <button>Back</button>
+      <button>Ove</button>
+      <button>Mobile</button>
      </div>
-     <div class="onecategory">
-      <div class="selectedcat fa fa-laptop "> Font End </div>
+     <hr>
+     <br>
+     <div class="category">
+      <nav class="selectedcat">Font End </nav>
       <br>
       <h7>Category:</h7>
-      <br>
       <br>
       <a href="fontend.html">HTML</a>
       <a href="lonedeveloper/backend.html">CSS</a>
       <a href="ov.html">Javascript</a>
-
-
-
      </div>
+      
+
     </div>
-    </div>
+   </div>
   </div>
   <div id="partTwo">
        <!--Container-->
@@ -143,19 +144,19 @@
     <br>
     <br>
     <div id="buttoncat">
-     <a href="backend.html" class="fa fa-server  " id="decoration" >Back</a>
+     <a href="fontend.html" class="fa fa-laptop  " id="decoration" > Font</a>
      <a id="decoration" class="fa fa-cogs" href="ov.html">Ove</a>
      <a id="decoration" class="fa fa-mobile-phone" href="mobilewebapps.html">Mobile</a>
     </div>
       <div class="category">
-       <div class="selectedcat fa fa-laptop "> Font End </div>
+       <div class="selectedcat  fa fa-server   "> Back End </div>
        <br>
        <h7>Category:</h7>
        <br>
        <br>
-      <a href="fontend.html">HTML</a>
-      <a href="lonedeveloper/backend.html">CSS</a>
-      <a href="ov.html">Javascript</a>
+      <a href="fontend.html">C#</a>
+      <a href="lonedeveloper/backend.html">ASP.Net</a>
+      <a href="ov.html">SQL</a>
      
      
       
@@ -163,33 +164,10 @@
     
    </div>
     </div>
-    <!--
     <div class="slidePut" id="slidePut">
      <button class="button1" onclick="slideNav()">&#9776;</button>
-    </div>
-    -->
-    <div class="slidePutSm" id="slidePutSm" style="padding-bottom:30%;">
-     <button class="button1" id="butSm" onclick="slideSm()">&#9776;</button>
-     <!--
      <span class="pic"> <img src="picture/1.png" alt="Norway" style="margin-top:3%; margin-right:10%; float:right; height :70px; width:70px; border-radius:50%;"></span>
-     -->
     </div>
-
-    <div class="slidePutMd" id="slidePutMd" style="padding-bottom:25%;" >
-     <button class="button1" id="butMd" onclick="slideMd()">&#9776;</button>
-     <!--
-     <span class="pic"> <img src="picture/1.png" alt="Norway" style="margin-top:3%; margin-right:10%; float:right; height :70px; width:70px; border-radius:50%;"></span>
-     -->
-    </div>
-
-
-    <div class="slidePutLs" id="slidePutLs"  style="padding-bottom:25%;" >
-     <button class="button1" id="butMd" onclick="slideLs()">&#9776;</button>
-     <!--
-     <span class="pic"> <img src="picture/1.png" alt="Norway" style="margin-top:3%; margin-right:10%; float:right; height :70px; width:70px; border-radius:50%;"></span>
-     -->
-    </div>
-    
     <header><h1 class="title">Lone Developer</h1></header>
 
     <!--Slide Nav for sm xm-->

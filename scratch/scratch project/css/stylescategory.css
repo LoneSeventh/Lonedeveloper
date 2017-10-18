@@ -1,0 +1,1290 @@
+/*  ////////////////////////////////////////////////////
+////////////////////////////////////////////////////////
+////////////=///////////////////////////////////////////
+///////////////////////////////////////////////// //////
+////////                                    ////////////
+////////.            SCREEN 350.           /////////////
+///////                                    /////////////
+////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////*/
+/*@media screen and (max-width:350px){
+.head{
+    display:none;
+    background : black;
+    color : white;
+}
+.left{
+ display:none;
+ background-color:gold;
+float:left;
+width:35%;
+    }
+ 
+.right{
+width:73;
+float:left;
+    }
+ 
+#firstNav{
+ 
+}
+.footer{
+    background-color:black;
+    color:white;
+    width:100%;
+    clear:both;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  ////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////
+///////////////////////////////////////////////// /////////
+/////////                                   ///////////////
+////////            SCREEN 760.            ///////////////
+///////                                   ////////////////
+///////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////*/
+
+@media screen and (max-width:760px){
+  .icon{
+    text-decoration:none;
+    color:black;
+  }
+  .icon:hover{
+    color:silver;
+    text-decoration:none;
+  }
+  .homeicon{
+    color:skyblue;
+    text-decoration:none;
+  }
+  .homeicon:hover{
+    color:silver;
+  }
+  #partOne{
+  
+  background-color:white;
+  top:0;
+  z-index:1;
+  overflow-x:hidden;
+  float:left;
+  position :fixed;
+  margin-left:-10px;
+  height:100%;
+  width:33%;
+  display:none;
+  transition:0.5s;
+ 
+  }
+  
+         /*PART 2*/
+            /*LEFT SIDE*/
+            /*contnet of all */
+            
+            
+ #partTwo{
+    
+    width:100%;
+    height:100%;
+  }
+  .lgNav{
+    display:none;
+  }
+  
+
+    
+         
+.right{
+width:100%;
+float:left;
+    }
+      
+
+/* Slide Nav*/
+
+
+
+#firstNav{
+  background-color:white;
+  top:0;
+  z-index:1;
+  overflow-x:hidden;
+  float:left;
+  position :fixed;
+  margin-left:-10px;
+  height:100%;
+  width:0;
+  display:inline-block;
+  transition:0.5s;
+}
+.category a{
+  transition:0.4s;
+  display:block;
+  padding:10px 10px 10px 10px;
+  font-size:20px;
+  margin-left:18%;
+  color:black;
+}
+.category a:hover{
+  margin-left:12%;
+  background-color:black;
+  color:white;
+}
+#firstNav h7{
+  margin-left:10%;
+}
+#buttoncat{
+  margin-left:3%;
+  background-color:white;
+  
+}
+#buttoncat a{
+  float:left;
+  border:none;
+  outline:none;
+  background-color:rgba(0,0,0,0.1);
+ padding:10px 14px;
+ margin-left:1%;
+ display:block;
+ text-decoration:none;
+ width:55px;
+ height:14px;
+ color:black;
+}
+
+#buttoncat a:hover{
+  background-color:silver;
+}
+#buttoncat a.active{
+  background-color:silver;
+}
+.category{
+  margin-bottom:100px;
+}
+.selectedcat{
+  width:83%;
+   
+  clear:both;
+ padding:14px 16px;
+  overflow:auto;
+  font-size:500%;
+  padding-left:10%;
+  background-color:black;
+  overflow:auto;
+  color:white;
+}
+.times{
+  outline:none;
+  float:right;
+border:none;
+background:inherit;
+  font-size:500%;
+  margin-top:15%;
+  margin-right:10%;
+}
+.times:hover{
+  color:silver;
+}
+.times.active{
+  color:silver;
+}
+
+.pic1{
+  float:left;
+  width:100px;
+  height:100px;
+  margin-left:10%;
+  margin-top:15%;
+  margin-bottom:15px;
+  border-radius: 15%;
+}
+
+.titleNav{
+  padding-left:10%;
+}
+li{
+    list-style-type:none;
+}
+.slidelink{
+ 
+ clear:both;
+} 
+/*Content */
+.header{
+  text-align:center;
+  
+}
+.title{
+  margin-top:-7%;
+  padding-left:6%;
+}
+.slidePut{
+  width:100%;
+  height:150px;
+}
+.homeNav{
+  margin-bottom:4%;
+}
+.homeNav a{
+  display:none;
+  padding:10px 10px 10px 10px;
+  width:60px;
+  height :;
+  background-color:rgba(0, 0, 0, 0.1);
+  text-decoration:none;
+  color:black;
+}
+.homeNav a:hover{
+  background-color:silver;
+}
+.homeNav a:active{
+  background-color:silver;
+}
+/*Nav for sm */
+.spanBlack{
+ 
+}
+.spanHome a{
+  display:inline-block;
+  padding:10px 14px ;
+  width:60px;
+  color:black;
+  
+  background-color:#f1f1f1;
+  text-decoration:none;
+  color:black;
+}
+.spanHome:hover{
+ padding:12px px;
+  background-color:silver;
+}
+ .black{
+   margin-left:40px;
+   float:left;
+   padding:10px 10px 10px 10px;
+   width:60px;
+  background-color:black;
+  color:white;
+  cursor:pointer;
+}
+.black:hover{
+  background-color:white;
+  color:black;
+}
+.black:active{
+  background-color:white;
+  color:black;
+}
+/*drop down nav for sm nav*/
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color:#f1f1f1;
+    min-width:;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: silver}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+  .button1{
+    margin-left:5%;
+    margin-top:5%;
+    float:left;
+    font-size:35px;
+    font-weight:bold;
+    display:block;
+    background-color:inherit;
+    border:none;
+    text-decoration:none;
+    color:black;
+    outline:none;
+  }
+  .button1:hover{
+    color:silver;
+  }
+  .button1.active{
+    color:silver;
+}
+.lineDiv{
+  color:white;
+  display:block;
+  width:100%;
+  height :6px;
+  background-color:silver;
+}
+.lgcont{
+  display:none;
+}
+
+.tabCont{
+  display:none;
+}
+
+.contHome{
+  display:block;
+}
+
+           /*PART 4*/
+          /*FOOTER*/
+.footer{
+    background-color:black;
+    color:white;
+    width:100%;
+    clear:both;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*////////////////////Land Scape Mode/////////////*/
+
+@media screen and (orientation:landscape) {
+    .icon{
+    text-decoration:none;
+    color:black;
+  }
+  .icon:hover{
+    color:silver;
+    text-decoration:none;
+  }
+  .homeicon{
+    color:skyblue;
+    text-decoration:none;
+  }
+  .homeicon:hover{
+    color:silver;
+  }
+  #partOne{
+  
+  background-color:white;
+  top:0;
+  z-index:1;
+  overflow-x:hidden;
+  float:left;
+  position :fixed;
+  margin-left:-10px;
+  height:100%;
+  width:33%;
+  display:none;
+  transition:0.5s;
+ 
+  }
+  
+         /*PART 2*/
+            /*LEFT SIDE*/
+            /*contnet of all */
+            
+            
+ #partTwo{
+    
+    width:100%;
+    height:100%;
+  }
+  .lgNav{
+    display:none;
+  }
+  
+
+    
+         
+.right{
+width:100%;
+float:left;
+    }
+      
+
+          /*PART 3*/
+            /*LEFT SIDE*/
+            /*contnet of all */
+.right{
+width:100%;
+float:left;
+    }
+      
+
+/* Slide Nav*/
+#firstNav{
+  background-color:white;
+  top:0;
+  z-index:1;
+  overflow-x:hidden;
+  float:left;
+  position :fixed;
+  margin-left:-10px;
+  height:100%;
+  width:0;
+  display:inline-block;
+  transition:0.5s;
+}
+
+.category a{
+  transition:0.4s;
+  display:block;
+  padding:10px 10px 10px 10px;
+  font-size:20px;
+  margin-left:18%;
+  color:black;
+}
+.category a:hover{
+  margin-left:12%;
+  background-color:black;
+  color:white;
+}
+#firstNav h7{
+  margin-left:10%;
+}
+#buttoncat{
+  margin-left:3%;
+  background-color:white;
+  
+}
+#buttoncat a{
+  float:left;
+  border:none;
+  outline:none;
+  background-color:rgba(0,0,0,0.1);
+ padding:;
+ margin-left:3%;
+ display:block;
+ text-decoration:none;
+ width:100px;
+ height:20px;
+}
+
+#buttoncat a:hover{
+  margin-left:3%;
+  background-color:silver;
+}
+#buttoncat a.active{
+  background-color:silver;
+}
+.category{
+  margin-bottom:100px;
+}
+.selectedcat{
+  clear:both;
+ padding-top:10px;
+  overflow:auto;
+  font-size:35px;
+  padding-left:10%;
+  background-color:black;
+  overflow:auto;
+  color:white;
+}
+
+/*
+.category{
+  margin-bottom:100px;
+}
+.buttoncat{
+  margin-left:8%;
+  margin-bottom:-12px;
+  background-color:white;
+  display:inline-block;
+  
+}
+.buttoncat button{
+  margin-left:5px;
+  border:none;
+  outline:none;
+  float:left;
+  background-color:rgba(0,0,0,0.1);
+  padding:12px 14px;
+}
+.buttoncat button:hover{
+  background-color:silver;
+}
+.buttoncat button.active{
+  background-color:silver;
+}
+.category{
+  margin-bottom:100px;
+}
+.selectedcat{
+  overflow:auto;
+  font-size:35px;
+  padding-left:10%;
+  background-color:black;
+  overflow:auto;
+  color:white;
+}
+*/
+.times{
+  outline:none;
+  float:right;
+border:none;
+background:inherit;
+  font-size:500%;
+  margin-top:15%;
+  margin-right:10%;
+}
+.times:hover{
+  color:silver;
+}
+.times.active{
+  color:silver;
+}
+.pic1{
+  float:left;
+  width:120px;
+  height:120px;
+  margin-left:10%;
+  margin-top:15%;
+  margin-bottom:15px;
+  border-radius: 15%;
+}
+
+.titleNav{
+  padding-left:10%;
+}
+li{
+    list-style-type:none;
+}
+.slidelink{
+ 
+ clear:both;
+} 
+/*Content */
+.header{
+  text-align:center;
+  
+}
+.title{
+  
+  padding-left:6%;
+}
+.slidePut{
+  width:100%;
+  height:150px;
+}
+.homeNav{
+  margin-left:15%;
+  margin-bottom:15px;
+}
+.homeNav a{
+  padding:10px 10px 10px 10px;
+  display :inline-block;
+  width:60px;
+  height :;
+  background-color:rgba(0, 0, 0, 0.1);
+  text-decoration:none;
+  color:black;
+}
+.homeNav a:hover{
+  background-color:silver;
+}
+.homeNav a:active{
+  background-color:silver;
+}
+
+
+/*DROPDOWN*/
+.dropdown{
+ display:none;
+}
+
+
+ .black{
+   margin-left:15%;
+   margin-right:7px;
+   float:left;
+   padding:10px 10px 10px 10px;
+   width:60px;
+   display :inline-block;
+  background-color:black;
+  color:white;
+}
+.black:hover{
+  background-color:white;
+  color:black;
+}
+.black:active{
+  background-color:white;
+  color:black;
+}
+
+
+
+.homeNav .black:hover{
+  background-color:inherit;
+  color:black;
+}
+
+.homeNav .black:active{
+  background-color:inherit;
+  color:black;
+}
+  .button1{
+    margin-left:5%;
+    margin-top:5%;
+    float:left;
+    font-size:35px;
+    font-weight:bold;
+    display:block;
+    background-color:inherit;
+    border:none;
+    text-decoration:none;
+    color:black;
+    outline:none;
+  }
+  .button1:hover{
+    color:silver;
+  }
+  .button1.active{
+    color:silver;
+}
+.lineDiv{
+  color:white;
+  display:block;
+  width:100%;
+  height :6px;
+  background-color:silver;
+}
+
+.smcont{
+  display:none;
+}
+.lgcont{
+  display:block;
+}
+
+/*javascript tab cont*/
+.tabCont{
+  display:none;
+}
+
+.contHome{
+  display:block;
+}
+
+           /*PART 4*/
+          /*FOOTER*/
+.footer{
+    background-color:black;
+    color:white;
+    width:100%;
+    clear:both;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  ////////////////////////////////////////////////////
+////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////
+///////////////////////////////////////////////// //////
+/////////                                    ///////////
+////////.            SCREEN 1000.           ////////////
+////////                                    ////////////
+////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////*/
+
+@media screen and (mix-width:1000px){
+ 
+   /* PART 1 */
+   #partOne{
+  
+  background-color:white;
+  top:0;
+  z-index:1;
+  overflow-x:hidden;
+  float:left;
+  position :fixed;
+  margin-left:-10px;
+  height:100%;
+  width:33%;
+  display:block;
+  transition:0.5s;
+ 
+  }
+  
+   .oneicon{
+    text-decoration:none;
+    color:black;
+  }
+  .oneicon:hover{
+    color:silver;
+    text-decoration:none;
+  }
+  .onehomeicon{
+    color:skyblue;
+    text-decoration:none;
+  }
+  .onehomeicon:hover{
+    color:silver;
+  }
+  
+  
+
+.onecategory a{
+  display:block;
+  padding:10px 10px 10px 10px;
+  font-size:20px;
+  margin-left:18%;
+  color:black;
+}
+  
+.onecategory a{
+  transition:0.4s;
+  display:block;
+  padding:10px 10px 10px 10px;
+  font-size:20px;
+  margin-left:18%;
+  color:black;
+}
+.onecategory a:hover{
+  margin-left:12%;
+  background-color:black;
+  color:white;
+}
+#firstNav h7{
+  margin-left:10%;
+}
+#buttoncat{
+  margin-left:3%;
+  background-color:white;
+  
+}
+#buttoncat a{
+  float:left;
+  border:none;
+  outline:none;
+  background-color:rgba(0,0,0,0.1);
+ padding:10px 14px;
+ margin-left:1%;
+ display:block;
+ text-decoration:none;
+ width:55px;
+ height:14px;
+ color:black;
+}
+
+#buttoncat a:hover{
+  background-color:silver;
+}
+#buttoncat a.active{
+  background-color:silver;
+}
+.onecategory{
+  margin-bottom:100px;
+}
+.selectedcat{
+  width:83%;
+   
+  clear:both;
+ padding:14px 16px;
+  overflow:auto;
+  font-size:500%;
+  padding-left:10%;
+  background-color:black;
+  overflow:auto;
+  color:white;
+}
+.times{
+  outline:none;
+  float:right;
+border:none;
+background:inherit;
+  font-size:500%;
+  margin-top:15%;
+  margin-right:10%;
+}
+.times:hover{
+  color:silver;
+}
+.times.active{
+  color:silver;
+}
+
+.pic1{
+  float:left;
+  width:100px;
+  height:100px;
+  margin-left:10%;
+  margin-top:15%;
+  margin-bottom:15px;
+  border-radius: 15%;
+}
+
+.titleNav{
+  padding-left:10%;
+}
+li{
+    list-style-type:none;
+}
+.slidelink{
+ 
+ clear:both;
+} 
+  
+  
+
+         /*PART 2*/
+            /*LEFT SIDE*/
+            /*contnet of all */
+            
+            
+  #partTwo{
+    padding-left:35%;
+    width:65%;
+    height:100%;
+    background-color:;
+    float:left;
+  }
+         
+          /*HEAD*/
+.head{
+  display:none;
+    background : black;
+    color : white;
+}
+
+
+          /*PART 2*/
+          /*RIGHT SIDE*/
+          /*nav of the big lg lx md*/
+.left{
+display:none;
+ background-color:gold;
+float:left;
+width:35%;
+    }
+    
+          /*PART 3*/
+            /*LEFT SIDE*/
+            /*contnet of all */
+.right{
+width:73%;
+float:left;
+    }
+      
+
+/* Slide Nav*/
+#firstNav{
+  background-color:white;
+  top:0;
+  z-index:1;
+  overflow-x:hidden;
+  float:left;
+  position :fixed;
+  margin-left:-10px;
+  height:100%;
+  width:0;
+  display:inline-block;
+  transition:0.5s;
+}
+#firstNav a{
+  display:block;
+  padding:10px 10px 10px 10px;
+  font-size:20px;
+  margin-left:18%;
+  color:black;
+}
+#firstNav h7{
+  margin-left:10%;
+}
+.category{
+  margin-bottom:100px;
+}
+.times{
+  outline:none;
+  float:right;
+border:none;
+background:inherit;
+  font-size:500%;
+  margin-top:15%;
+  margin-right:10%;
+}
+.times:hover{
+  color:silver;
+}
+.times.active{
+  color:silver;
+}
+.pic1{
+  float:left;
+  width:120px;
+  height:120px;
+  margin-left:10%;
+  margin-top:15%;
+  margin-bottom:15px;
+  border-radius: 15%;
+}
+
+.titleNav{
+  padding-left:10%;
+}
+li{
+    list-style-type:none;
+}
+.slidelink{
+ 
+ clear:both;
+} 
+/*Content */
+.header{
+  text-align:center;
+  
+}
+.title{
+  
+  padding-left:6%;
+}
+.slidePut{
+  width:100%;
+  height:150px;
+}
+.homeNav{
+  margin-left:15%;
+  margin-bottom:15px;
+}
+.homeNav a{
+  padding:10px 10px 10px 10px;
+  display :inline-block;
+  width:60px;
+  height :;
+  background-color:rgba(0, 0, 0, 0.1);
+  text-decoration:none;
+  color:black;
+}
+.homeNav a:hover{
+  background-color:silver;
+}
+.homeNav a:active{
+  background-color:silver;
+}
+
+
+/*DROPDOWN*/
+.dropdown{
+ display:none;
+}
+
+
+ .black{
+   margin-left:15%;
+   margin-right:7px;
+   float:left;
+   padding:10px 10px 10px 10px;
+   width:60px;
+   display :inline-block;
+  background-color:black;
+  color:white;
+}
+.black:hover{
+  background-color:white;
+  color:black;
+}
+.black:active{
+  background-color:white;
+  color:black;
+}
+
+
+
+.homeNav .black:hover{
+  background-color:inherit;
+  color:black;
+}
+
+.homeNav .black:active{
+  background-color:inherit;
+  color:black;
+}
+  .button1{
+    margin-left:5%;
+    margin-top:5%;
+    float:left;
+    font-size:35px;
+    font-weight:bold;
+    display:none;
+    background-color:inherit;
+    border:none;
+    text-decoration:none;
+    color:black;
+    outline:none;
+  }
+  .button1:hover{
+    color:silver;
+  }
+  .button1.active{
+    color:silver;
+}
+.lineDiv{
+  color:white;
+  display:block;
+  width:100%;
+  height :6px;
+  background-color:silver;
+}
+
+.smcont{
+  display:none;
+}
+.lgcont{
+  display:block;
+}
+
+/*javascript tab cont*/
+.tabCont{
+  display:none;
+}
+
+.contHome{
+  display:block;
+}
+
+           /*PART 4*/
+          /*FOOTER*/
+.footer{
+    background-color:black;
+    color:white;
+    width:100%;
+    clear:both;
+    }
+}
+
+
+
+/*
+@media screen and (min-width:1000px){
+  .lgNav{
+    width:35%;
+    float:left;
+  }
+ .contLg{
+   width:65%;
+   float:left;
+ }
+.head{
+    background : black;
+    color : white;
+}
+.left{
+  
+ background-color:gold;
+float:left;
+width:35%;
+    }
+   .firstNav{
+     display:none;
+   }
+  .smMainNav{
+    display:none;
+  }
+ .slideput{
+   display:none;
+ }
+ .dropdown{
+   display:none;
+ }
+ #firstNav{
+   display:none;
+ }
+ .slidePut{
+   display:none;
+ }
+ .header{
+   display:none;
+ }
+.right{
+width:73;
+float:left;
+    }
+    
+.footer{
+    background-color:black;
+    color:white;
+    width:100%;
+    clear:both;
+    }
+}
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  ///////////////////////////////////////////////////
+///////////////////////////////////////////////////////
+///////////////////////////////////////////////////////
+///////////////////////////////////////////////////////
+/////////                                   ///////////
+/////////            SCREEN 1200.           ///////////
+////////                                    ///////////
+///////////////////////////////////////////////////////
+///////////////////////////////////////////////////////
+///////////////////////////////////////////////////////
+///////////////////////////////////////////////////////
+///////////////////////////////////////////////////////*/
+@media screen and (mix-width:1200px){
+.head{
+    background : black;
+    color : white;
+}
+.left{
+  
+ background-color:gold;
+float:left;
+width:35%;
+    }
+    
+.right{
+width:73;
+float:left;
+    }
+#firstNav{
+  
+}
+.footer{
+    background-color:black;
+    color:white;
+    width:100%;
+    clear:both;
+    }
+}

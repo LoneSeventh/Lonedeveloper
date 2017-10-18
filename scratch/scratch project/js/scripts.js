@@ -11,49 +11,7 @@ function slideNav(){
 
     
 }
-function slideSm(){
-  
-        document.getElementById("firstNav").style.width="75%";
-       document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
 
-    
-}
-
-function slideMd(){
-  
-        document.getElementById("firstNav").style.width="40%";
-       document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
-
-    
-}
-
-
-function slideLs(){
-  
-        document.getElementById("firstNav").style.width="50%";
-       document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
-
-    
-}
-function slideLg(){
-  
-        document.getElementById("firstNav").style.width="25%";
-       document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
-
-    
-}
-
-
-
-
-
-function slideXl(){
-  
-        document.getElementById("firstNav").style.width="18%";
-       document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
-
-    
-}
 function closeNav(){
        document.getElementById("firstNav").style.width="0";
               document.body.style.backgroundColor = "";
