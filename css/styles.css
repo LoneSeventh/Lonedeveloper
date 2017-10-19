@@ -1277,7 +1277,7 @@ li{
   position :fixed;
   margin-left:-10px;
   height:100%;
-  width:33%;
+  width:25%;
   display:block;
   transition:0.5s;
  
@@ -1293,7 +1293,7 @@ li{
   position :fixed;
   margin-left:-10px;
   height:100%;
-  width:33%;
+  width:25%;
   display:inline-block;
   transition:0.5s;
 }
@@ -1354,8 +1354,8 @@ li{
             
             
   #partTwo{
-    padding-left:35%;
-    width:65%;
+    padding-left:28%;
+    width:73%;
     height:100%;
     background-color:;
     float:left;
