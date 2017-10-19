@@ -65,17 +65,18 @@ function closeNav(){
 
             //Tab Content
        
-            
-            
+           
             
     function openCont(event,openCity){
         var i, hideCont, activeBot;
         
-        hideCont=document.getElementsByClassName('tabCont');
-        activeBot=document.getElementsByClassName('activeBot');
+        hideCont= document.getElementsByClassName('tabCont');
+        
+        
         for(i=0; i< hideCont.length; i++){
             hideCont[i].style.display="none";
         }
+        
         document.getElementById(openCity).style.display="block";
         document.getElementsByClassName("contHome").style.display="none";
          }
