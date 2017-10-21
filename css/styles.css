@@ -70,7 +70,8 @@
             
             
  #partTwo{
-    
+    background-image:url("/picture/background.png");
+    background-size:cover;
     width:100%;
     height:100%;
   }
@@ -386,7 +387,8 @@ li{
             
             
  #partTwo{
-    
+    background-image:url("/picture/background.png");
+    background-size:cover;
     width:100%;
     height:100%;
   }
@@ -1354,8 +1356,8 @@ li{
             
             
   #partTwo{
-    padding-left:28%;
-    width:73%;
+    padding-left:24%;
+    width:75%;
     height:100%;
     background-color:;
     float:left;
@@ -1779,7 +1781,7 @@ li{
             
             
   #partTwo{
-    margin-left:-14%;
+    padding-left:22%;
     width:75%;
     height:100%;
     float:left;
