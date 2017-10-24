@@ -47,6 +47,68 @@
 
   
   
+
+
+
+
+
+
+
+  
+#buttoncat{
+  margin-left:3%;
+  background-color:white;
+  
+}
+#buttoncat a{
+  float:left;
+  border:none;
+  outline:none;
+  background-color:rgba(0,0,0,0.1);
+ padding:2% 3%;
+ margin-left:1%;
+ display:block;
+ text-decoration:none;
+ width:55px;
+ height:14px;
+ color:black;
+}
+
+#buttoncat a:hover{
+  background-color:silver;
+}
+#buttoncat a.active{
+  background-color:silver;
+}
+
+
+.selectedcat{
+  width:83%;
+   
+  clear:both;
+ padding:14px 16px;
+  overflow:auto;
+  font-size:500%;
+  padding-left:10%;
+  background-color:black;
+  overflow:auto;
+  color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
   #partOne{
   
@@ -70,8 +132,7 @@
             
             
  #partTwo{
-    background-image:url("/picture/background.png");
-    background-size:cover;
+    
     width:100%;
     height:100%;
   }
@@ -113,8 +174,8 @@ float:left;
 }
 .category a:hover{
   margin-left:12%;
-  background-color:black;
-  color:white;
+  background-color:inherit;
+  color:black;
 }
 #firstNav h7{
   margin-left:10%;
@@ -195,17 +256,18 @@ li{
 }
 .spanHome a{
   display:inline-block;
-  padding:10px 14px ;
+  padding:10px 22px ;
   width:60px;
   color:black;
   
-  background-color:#f1f1f1;
+  background-color:rgba(0, 0, 0, 0.1);
   text-decoration:none;
   color:black;
 }
-.spanHome:hover{
+.spanHome a:hover{
  padding:12px px;
-  background-color:silver;
+  background-color:rgba(0, 0, 0, 0.7);
+  color:skyblue;
 }
  .black{
    margin-left:40px;
@@ -217,11 +279,11 @@ li{
   cursor:pointer;
 }
 .black:hover{
-  background-color:white;
+  background-color:rgba(0,0,0,0);
   color:black;
 }
 .black:active{
-  background-color:white;
+  background-color:rgba(0,0,0,0);
   color:black;
 }
 /*drop down nav for sm nav*/
@@ -235,20 +297,26 @@ li{
     display: none;
     position: absolute;
     right: 0;
-    background-color:#f1f1f1;
+    background-color:rgba(0,0,0,0.7);
     min-width:;
+    
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
 
 .dropdown-content a {
-    color: black;
+    color: white;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+    
 }
 
-.dropdown-content a:hover {background-color: silver}
+.dropdown-content a:hover {
+  background-color: rgba(0,0,0,0.7);
+  color:skyblue;
+ 
+  }
 
 .dropdown:hover .dropdown-content {
     display: block;
@@ -363,6 +431,65 @@ li{
   
   
   
+
+
+
+
+
+
+  
+#buttoncat{
+  margin-left:3%;
+  background-color:white;
+  
+}
+#buttoncat a{
+  float:left;
+  border:none;
+  outline:none;
+  background-color:rgba(0,0,0,0.1);
+ padding:3% 5%;
+ margin-left:1%;
+ display:block;
+ text-decoration:none;
+ width:55px;
+ height:14px;
+ color:black;
+}
+
+#buttoncat a:hover{
+  background-color:silver;
+}
+#buttoncat a.active{
+  background-color:silver;
+}
+
+
+.selectedcat{
+  width:83%;
+   
+  clear:both;
+ padding:14px 16px;
+  overflow:auto;
+  font-size:500%;
+  padding-left:10%;
+  background-color:black;
+  overflow:auto;
+  color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
   
   
   #partOne{
@@ -387,8 +514,7 @@ li{
             
             
  #partTwo{
-    background-image:url("/picture/background.png");
-    background-size:cover;
+    
     width:100%;
     height:100%;
   }
@@ -430,8 +556,8 @@ float:left;
 }
 .category a:hover{
   margin-left:12%;
-  background-color:black;
-  color:white;
+  background-color:inherit;
+  color:black;
 }
 #firstNav h7{
   margin-left:10%;
@@ -501,10 +627,12 @@ li{
   color:black;
 }
 .homeNav a:hover{
-  background-color:silver;
+  background-color:rgba(0,0,0,0.7);
+  color:skyblue;
 }
 .homeNav a:active{
-  background-color:silver;
+  background-color:rgba(0, 0, 0, 0.7);
+  color:white;
 }
 /*Nav for sm */
 .spanBlack{
@@ -516,13 +644,14 @@ li{
   width:60px;
   color:black;
   
-  background-color:#f1f1f1;
+  background-color:rgba(0,0,0,0.1);
   text-decoration:none;
   color:black;
 }
-.spanHome:hover{
+.spanHome a:hover{
  padding:12px px;
-  background-color:silver;
+  background-color:rgba(0,0,0,0.7);
+  color:white;
 }
  .black{
    margin-left:40px;
@@ -534,11 +663,11 @@ li{
   cursor:pointer;
 }
 .black:hover{
-  background-color:white;
+  background-color:rgba(0,0,0,0);
   color:black;
 }
 .black:active{
-  background-color:white;
+  background-color:rgba(0,0,0,0);
   color:black;
 }
 /*drop down nav for sm nav*/
@@ -552,23 +681,29 @@ li{
     display: none;
     position: absolute;
     right: 0;
-    background-color:#f1f1f1;
+    background-color:rgba(0,0,0,0.7);
+    
     min-width:;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
 
 .dropdown-content a {
-    color: black;
+    color: white;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
 }
 
-.dropdown-content a:hover {background-color: silver}
+.dropdown-content a:hover {
+  background-color:rgba(0,0,0,0.7);
+  color:skyblue; 
+ 
+  }
 
 .dropdown:hover .dropdown-content {
     display: block;
+    
 }
 
 
@@ -633,7 +768,7 @@ li{
 
 /*////////////////////Land Scape Mode/////////////*/
 
-@media screen and (min-width:750px){
+@media screen and (min-width:600px){
   .icon{
     text-decoration:none;
     color:black;
@@ -661,6 +796,67 @@ li{
   
   
   
+
+
+
+
+
+  
+#buttoncat{
+  margin-left:3%;
+  background-color:white;
+  
+}
+#buttoncat a{
+  float:left;
+  border:none;
+  outline:none;
+  background-color:rgba(0,0,0,0.1);
+ padding:3% 5%;
+ margin-left:1%;
+ display:block;
+ text-decoration:none;
+ width:55px;
+ height:14px;
+ color:black;
+}
+
+#buttoncat a:hover{
+  background-color:silver;
+}
+#buttoncat a.active{
+  background-color:silver;
+}
+
+
+.selectedcat{
+  width:83%;
+   
+  clear:both;
+ padding:14px 16px;
+  overflow:auto;
+  font-size:500%;
+  padding-left:10%;
+  background-color:black;
+  overflow:auto;
+  color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
   
   #partOne{
@@ -831,11 +1027,11 @@ li{
   color:white;
 }
 .black:hover{
-  background-color:white;
+  background-color:rgba(0,0,0,0);
   color:black;
 }
 .black:active{
-  background-color:white;
+  background-color:rgba(0,0,0,0);
   color:black;
 }
 
@@ -892,6 +1088,23 @@ li{
 .contHome{
   display:block;
 }
+
+
+.divcontent1{
+  
+  width:45%;
+  height:50%;
+  float:left;
+}
+.divcontent2{
+  width:45%;
+  height:50%;
+  float:left;
+  padding-top:7%;
+  padding-left:7%;
+}
+
+
 
            /*PART 4*/
           /*FOOTER*/
@@ -932,6 +1145,65 @@ li{
   display:block;
 }
  
+
+
+
+
+
+
+
+
+
+  
+#buttoncat{
+  margin-left:3%;
+  background-color:white;
+  
+}
+#buttoncat a{
+  float:left;
+  border:none;
+  outline:none;
+  background-color:rgba(0,0,0,0.1);
+ padding:5% 7%;
+ margin-left:1%;
+ display:block;
+ text-decoration:none;
+ width:55px;
+ height:14px;
+ color:black;
+}
+
+#buttoncat a:hover{
+  background-color:silver;
+}
+#buttoncat a.active{
+  background-color:silver;
+}
+
+
+.selectedcat{
+  width:83%;
+   
+  clear:both;
+ padding:14px 16px;
+  overflow:auto;
+  font-size:500%;
+  padding-left:10%;
+  background-color:black;
+  overflow:auto;
+  color:white;
+}
+
+
+
+
+
+
+
+
+
+
   
   
   #partOne{
@@ -1078,10 +1350,10 @@ li{
   color:black;
 }
 .homeNav a:hover{
-  background-color:silver;
+  background-color:rgba(0,0,0,0.4);
 }
 .homeNav a:active{
-  background-color:silver;
+  background-color:rgba(0,0,0,0.4);
 }
 
 
@@ -1163,6 +1435,23 @@ li{
 .contHome{
   display:block;
 }
+
+
+
+.divcontent1{
+  
+  width:45%;
+  height:50%;
+  float:left;
+}
+.divcontent2{
+  width:45%;
+  height:50%;
+  float:left;
+  padding-top:12%;
+  padding-left:7%;
+}
+
 
            /*PART 4*/
           /*FOOTER*/
@@ -1269,6 +1558,64 @@ li{
   
   
   
+  
+  
+  
+  
+  
+  
+#buttoncat{
+  margin-left:3%;
+  background-color:white;
+  
+}
+#buttoncat a{
+  float:left;
+  border:none;
+  outline:none;
+  background-color:rgba(0,0,0,0.1);
+ padding:3% 5%;
+ margin-left:1%;
+ display:block;
+ text-decoration:none;
+ width:55px;
+ height:14px;
+ color:black;
+}
+
+#buttoncat a:hover{
+  background-color:silver;
+}
+#buttoncat a.active{
+  background-color:silver;
+}
+
+
+.selectedcat{
+  width:83%;
+   
+  clear:both;
+ padding:14px 16px;
+  overflow:auto;
+  font-size:500%;
+  padding-left:10%;
+  background-color:black;
+  overflow:auto;
+  color:white;
+}
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 #partOne{
  
   background-color:white;
@@ -1357,7 +1704,7 @@ li{
             
   #partTwo{
     padding-left:24%;
-    width:75%;
+    width:76.7%;
     height:100%;
     background-color:;
     float:left;
@@ -1479,10 +1826,10 @@ li{
   color:black;
 }
 .homeNav a:hover{
-  background-color:silver;
+  background-color:rgba(0,0,0,0.4);
 }
 .homeNav a:active{
-  background-color:silver;
+  background-color:rgba(0,0,0,0.4);
 }
 
 
@@ -1563,6 +1910,22 @@ li{
 
 .contHome{
   display:block;
+}
+
+
+
+.divcontent1{
+  
+  width:45%;
+  height:50%;
+  float:left;
+}
+.divcontent2{
+  width:45%;
+  height:50%;
+  float:left;
+  padding-top:7%;
+  padding-left:7%;
 }
 
            /*PART 4*/
@@ -1691,7 +2054,61 @@ float:left;
     color:silver;
   }
   
+
+
+
   
+  
+  
+
+
+  
+#buttoncat{
+  margin-left:3%;
+  background-color:white;
+  
+}
+#buttoncat a{
+  float:left;
+  border:none;
+  outline:none;
+  background-color:rgba(0,0,0,0.1);
+ padding:2% 4%;
+ margin-left:1%;
+ display:block;
+ text-decoration:none;
+ width:55px;
+ height:14px;
+ color:black;
+}
+
+#buttoncat a:hover{
+  background-color:silver;
+}
+#buttoncat a.active{
+  background-color:silver;
+}
+
+
+.selectedcat{
+  width:83%;
+   
+  clear:both;
+ padding:14px 16px;
+  overflow:auto;
+  font-size:500%;
+  padding-left:10%;
+  background-color:black;
+  overflow:auto;
+  color:white;
+}
+
+
+
+
+
+
+
   
 
   
@@ -1781,7 +2198,7 @@ li{
             
             
   #partTwo{
-    padding-left:22%;
+    padding-left:20%;
     width:75%;
     height:100%;
     float:left;
@@ -1903,10 +2320,10 @@ li{
   color:black;
 }
 .homeNav a:hover{
-  background-color:silver;
+  background-color:rgba(0,0,0,0.4);
 }
 .homeNav a:active{
-  background-color:silver;
+  background-color:rgba(0,0,0,0.4);
 }
 
 
@@ -1987,6 +2404,23 @@ li{
 
 .contHome{
   display:block;
+}
+
+
+
+
+.divcontent1{
+  
+  width:45%;
+  height:50%;
+  float:left;
+}
+.divcontent2{
+  width:45%;
+  height:50%;
+  float:left;
+  padding-top:7%;
+  padding-left:7%;
 }
 
            /*PART 4*/

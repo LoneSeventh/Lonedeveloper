@@ -37,7 +37,7 @@ function slideLs(){
 }
 function slideLg(){
   
-        document.getElementById("firstNav").style.width="25%";
+        document.getElementById("firstNav").style.width="26%";
        document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
 
     
@@ -49,7 +49,7 @@ function slideLg(){
 
 function slideXl(){
   
-        document.getElementById("firstNav").style.width="18%";
+        document.getElementById("firstNav").style.width="20%";
        document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
 
     
